@@ -1,0 +1,18 @@
+# Ambientes Virtuais (Pasta pesada que não deve ir para o GitHub)
+.venv/
+venv/
+env/
+bin/
+lib/
+
+# Cache do Python (Arquivos gerados automaticamente ao rodar o código)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de sistema e temporários
+.DS_Store
+.idea/
+.vscode/
+*.log
