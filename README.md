@@ -25,7 +25,7 @@ Atualmente, os dados são armazenados em memória durante a execução do progra
 
 - ✅ Cadastrar restaurantes
 - ✅ Listar restaurantes cadastrados
-- 🚧 Ativar/desativar restaurantes
+- ✅ Ativar/desativar restaurantes
 - 🚧 Persistência de dados (arquivo)
 
 ---
