@@ -21,7 +21,7 @@ Atualmente, os dados são armazenados em memória durante a execução do progra
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - ✅ Cadastrar restaurantes
 - ✅ Listar restaurantes cadastrados
@@ -30,7 +30,7 @@ Atualmente, os dados são armazenados em memória durante a execução do progra
 
 ---
 
-## ▶️ Como executar o projeto
+## Como executar o projeto
 
 ### Pré-requisitos
 - Python 3 instalado na máquina
