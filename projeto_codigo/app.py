@@ -15,6 +15,7 @@ def display_program_name():
 ██║░░██╗██║░░██║██║╚██╔╝██║██╔═══╝░██╔══██║██║╚████║░░╚██╔╝░░   ██╔══██╗██╔══╝░░██║░░╚██╗██║░╚═══██╗░░░██║░░░██╔══╝░░██╔══██╗
 ╚█████╔╝╚█████╔╝██║░╚═╝░██║██║░░░░░██║░░██║██║░╚███║░░░██║░░░   ██║░░██║███████╗╚██████╔╝██║██████╔╝░░░██║░░░███████╗██║░░██║
 ░╚════╝░░╚════╝░╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚══╝░░░╚═╝░░░   ╚═╝░░╚═╝╚══════╝░╚═════╝░╚═╝╚═════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝
+
 """)
 
 def display_options():
@@ -48,6 +49,14 @@ def invalid_option():
 
 def register_new_restaurant():
     
+    """ Essa função cadastra um novo restaurant 
+    
+        Inputs: Nome do restaurant; categoria
+        
+        Output: Add restaurante a lista de restaurantes
+    
+    """
+
     show_subtitle("Cadastro de novos restaurantes")
     restaurant_name = input("Digite o nome do restaurante que você deseja cadastrar: ")
     category = input(f"Digite o nome da categoria do restaurant {restaurant_name}: ")
@@ -58,7 +67,7 @@ def register_new_restaurant():
     
     return_menu()
 
-def list_restaurant():
+def list_restaurants():
     
     show_subtitle("Listando restaurantes ")
     
@@ -97,7 +106,7 @@ def choose_option():
         if chosen_option == 1:
             register_new_restaurant()
         elif chosen_option == 2:
-            list_restaurant()
+            list_restaurants()
         elif chosen_option == 3:
             toggle_restaurant_status()
         elif chosen_option == 4:
