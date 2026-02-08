@@ -34,7 +34,13 @@ def return_menu():
     main()    
 
 def show_subtitle(text):
+    """ Exibi o subtítulo estilizado na tela
     
+    Inputs: Texto: str (O texto do subttítulo)
+    
+    """
+
+
     os.system("clear")
     line = "*" * (len(text))
     print(line)
@@ -82,6 +88,12 @@ def list_restaurants():
 
 def toggle_restaurant_status():
     
+    """Altera o estado desativado/ativado do restaurant presente na lista
+
+        Output: Exibi uma mensagem se deu certo ou não mudar o estado
+
+    """
+
     show_subtitle("Alternando estado do restaurante")
     name_restaurant = input("Digite o nome do restaurante que deseja alternar o estado: ")
     restaurant_found = False
@@ -117,6 +129,7 @@ def choose_option():
         invalid_option()
 
 def main():
+    """ Função principal que inicia o programa """
     os.system("clear")
     display_program_name()
     display_options()
